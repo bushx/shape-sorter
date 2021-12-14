@@ -1,0 +1,26 @@
+Heap Sort
+Description and complexity analysis 
+
+- Why we chose heap sort
+We chose heap sort as our assignment1 sort because it has 
+good time complexity such as quick and merge.
+
+- time complexity analysis 
+Since the total height of the heap tree is almost log2n, 
+the time to rearrange the heap is consumed log2n 
+when inserting or deleting one element into the heap.
+Since the number of elements is n, it takes time for 
+O(nlog2n) as a whole.
+
+Time complexity O(n Log n)
+
+- Description of heap sort
+  Heap can divide into two part max heap and min heap.
+  The maximum heap is that each node has a property where 
+the value of the corresponding node is greater than the 
+value of the child node, so the root node has the maximum value.
+  On the contrary, the minimum heap has a smaller value than the 
+child node, so the root node has a minimum value.
+  The heap is a binary tree, and all layers except the bottom layer 
+must be completely filled. Nodes on the bottom layer have the 
+property of being filled sequentially from the left.
